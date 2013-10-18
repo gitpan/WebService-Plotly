@@ -11,6 +11,7 @@ lib/WebService/Plotly.pm
 perlcritic.rc
 t/00-compile.t
 t/basic.t
+t/pdl_data
 xt/author/critic.t
 xt/author/pod-spell.t
 xt/release/distmeta.t

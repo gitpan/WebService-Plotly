@@ -32,13 +32,13 @@ my %WriteMakefileArgs = (
     "File::Temp" => 0,
     "IO::Handle" => 0,
     "IPC::Open3" => 0,
-    "PDL::Constants" => 0,
+    "Storable" => 0,
     "Test::Fatal" => 0,
     "Test::InDistDir" => 0,
     "Test::More" => 0,
     "strict" => 0
   },
-  "VERSION" => "1.132850",
+  "VERSION" => "1.132910",
   "test" => {
     "TESTS" => "t/*.t"
   }

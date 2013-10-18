@@ -2,7 +2,7 @@ NAME
     WebService::Plotly - access plot.ly programmatically
 
 VERSION
-    version 1.132850
+    version 1.132910
 
 SYNOPSIS
         use WebService::Plotly;
