@@ -2,7 +2,7 @@ use strictures;
 
 package WebService::Plotly;
 
-our $VERSION = '1.132910'; # VERSION
+our $VERSION = '1.132940'; # VERSION
 
 # ABSTRACT: access plot.ly programmatically
 
@@ -109,7 +109,7 @@ WebService::Plotly - access plot.ly programmatically
 
 =head1 VERSION
 
-version 1.132910
+version 1.132940
 
 =head1 SYNOPSIS
 
