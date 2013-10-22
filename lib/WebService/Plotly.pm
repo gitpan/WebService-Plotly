@@ -2,7 +2,7 @@ use strictures;
 
 package WebService::Plotly;
 
-our $VERSION = '1.132940'; # VERSION
+our $VERSION = '1.132950'; # VERSION
 
 # ABSTRACT: access plot.ly programmatically
 
@@ -46,7 +46,7 @@ sub _makecall {
     {
         no warnings 'once';
         local *PDL::TO_JSON = sub { $_[0]->unpdl };
-        my $convert = sub { JSON->new->utf8->convert_blessed( 1 )->encode( $_[0] ) };
+        my $convert = sub { JSON->new->utf8->convert_blessed( 1 )->canonical( 1 )->encode( $_[0] ) };
         $json_args   = $convert->( $args );
         $json_kwargs = $convert->( \%kwargs );
     }
@@ -109,7 +109,7 @@ WebService::Plotly - access plot.ly programmatically
 
 =head1 VERSION
 
-version 1.132940
+version 1.132950
 
 =head1 SYNOPSIS
 

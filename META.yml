@@ -14,6 +14,7 @@ build_requires:
   Test::Fatal: 0
   Test::InDistDir: 0
   Test::More: 0
+  URI: 0
   strict: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -35,7 +36,7 @@ no_index:
 provides:
   WebService::Plotly:
     file: lib/WebService/Plotly.pm
-    version: 1.132940
+    version: 1.132950
 requires:
   JSON: 0
   LWP::UserAgent: 0
@@ -47,4 +48,4 @@ resources:
   bugtracker: https://github.com/cparmer/plotlyperl/issues
   homepage: https://github.com/cparmer/plotlyperl
   repository: https://github.com/cparmer/plotlyperl.git
-version: 1.132940
+version: 1.132950
