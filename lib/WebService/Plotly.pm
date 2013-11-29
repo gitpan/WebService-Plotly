@@ -2,7 +2,7 @@ use strictures;
 
 package WebService::Plotly;
 
-our $VERSION = '1.133330'; # VERSION
+our $VERSION = '1.133331'; # VERSION
 
 # ABSTRACT: access plot.ly programmatically
 
@@ -109,7 +109,7 @@ WebService::Plotly - access plot.ly programmatically
 
 =head1 VERSION
 
-version 1.133330
+version 1.133331
 
 =head1 SYNOPSIS
 
@@ -144,30 +144,25 @@ plot.
 
 You can find examples plots at L<https://plot.ly/api/perl/>.
 
-=begin html
+A sample of the plots available are shown below (if you don't see images below,
+view this documentation on L<MetaCPAN|https://metacpan.org/pod/WebService::Plotly>).
+To view the example code, follow the links.
 
-A sample of the plots available are shown below. To view the example code, follow the links.
+=over 2
 
-<style type="text/css">
-#inline-list ul, #inline-list li {
- display: inline;
- list-style: none;
- padding: 5px;
- }
-</style>
-<div id="inline-list">
-<p>
-<ul>
-<li> <a href="https://plot.ly/perl/script-demos/fishschool"><img src="https://plot.ly/static/img/demoscriptthumbs/fishschool.png"/></a> </li>
+=item * L<Fishschool Scatter Graph|https://plot.ly/perl/script-demos/fishschool>
 
-<li> <a href="https://plot.ly/perl/script-demos/histarea"><img src="https://plot.ly/static/img/demoscriptthumbs/histarea.png"/></a> </li>
+=for html <div><img src="https://plot.ly/static/img/demoscriptthumbs/fishschool.png"></div>
 
-<li> <a href="https://plot.ly/perl/script-demos/math"><img src="https://plot.ly/static/img/demoscriptthumbs/math.png"/></a> </li>
-</ul>
-</p>
-</div>
+=item * L<Histogram Area Plot|https://plot.ly/perl/script-demos/histarea>
 
-=end html
+=for html <div><img src="https://plot.ly/static/img/demoscriptthumbs/histarea.png"></div>
+
+=item * L<Math Scores|https://plot.ly/perl/script-demos/math>
+
+=for html <div><img src="https://plot.ly/static/img/demoscriptthumbs/math.png"></div>
+
+=back
 
 =head1 CONSTRUCTOR
 
