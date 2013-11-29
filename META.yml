@@ -36,7 +36,7 @@ no_index:
 provides:
   WebService::Plotly:
     file: lib/WebService/Plotly.pm
-    version: 1.133230
+    version: 1.133330
 requires:
   JSON: 0
   LWP::UserAgent: 0
@@ -48,4 +48,4 @@ resources:
   bugtracker: https://github.com/cparmer/plotlyperl/issues
   homepage: https://github.com/cparmer/plotlyperl
   repository: https://github.com/cparmer/plotlyperl.git
-version: 1.133230
+version: 1.133330

@@ -2,7 +2,7 @@ NAME
     WebService::Plotly - access plot.ly programmatically
 
 VERSION
-    version 1.133230
+    version 1.133330
 
 SYNOPSIS
         use WebService::Plotly;
@@ -30,6 +30,9 @@ DESCRIPTION
     Note that WS::Plotly caches the filename on the plotly server inside the
     object, so that further plot/style/layout calls can be used to modified
     an existing plot.
+
+EXAMPLES
+    You can find examples plots at <https://plot.ly/api/perl/>.
 
 CONSTRUCTOR
     WS::Plotly uses a standard Moo constructor.
