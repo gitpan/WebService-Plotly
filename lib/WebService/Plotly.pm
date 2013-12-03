@@ -2,7 +2,7 @@ use strictures;
 
 package WebService::Plotly;
 
-our $VERSION = '1.133331'; # VERSION
+our $VERSION = '1.133370'; # VERSION
 
 # ABSTRACT: access plot.ly programmatically
 
@@ -45,7 +45,8 @@ sub _makecall {
     my ( $json_args, $json_kwargs );
     {
         no warnings 'once';
-        local *PDL::TO_JSON = sub { $_[0]->unpdl };
+        local *PDL::TO_JSON = sub { $_[0]->unpdl }
+          if PDL->VERSION >= 2.006;
         my $convert = sub { JSON->new->utf8->convert_blessed( 1 )->canonical( 1 )->encode( $_[0] ) };
         $json_args   = $convert->( $args );
         $json_kwargs = $convert->( \%kwargs );
@@ -109,7 +110,7 @@ WebService::Plotly - access plot.ly programmatically
 
 =head1 VERSION
 
-version 1.133331
+version 1.133370
 
 =head1 SYNOPSIS
 
@@ -263,7 +264,7 @@ bill for it.
 =head2 Bugs / Feature Requests
 
 Please report any bugs or feature requests through the issue tracker
-at L<https://github.com/cparmer/plotlyperl/issues>.
+at L<https://github.com/plotly/Perl-API/issues>.
 You will be notified automatically of any progress on your issue.
 
 =head2 Source Code
@@ -271,9 +272,9 @@ You will be notified automatically of any progress on your issue.
 This is open source software.  The code repository is available for
 public review and contribution under the terms of the license.
 
-L<https://github.com/cparmer/plotlyperl>
+L<https://github.com/plotly/Perl-API>
 
-  git clone https://github.com/cparmer/plotlyperl.git
+  git clone https://github.com/plotly/Perl-API.git
 
 =head1 AUTHORS
 

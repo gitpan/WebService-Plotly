@@ -6,8 +6,8 @@ META.yml
 Makefile.PL
 README
 README.PATCHING
-WebService-Plotly-1.133330/README.PATCHING
-WebService-Plotly-1.133330/perlcritic.rc
+WebService-Plotly-1.133370/README.PATCHING
+WebService-Plotly-1.133370/perlcritic.rc
 dist.ini
 lib/WebService/Plotly.pm
 perlcritic.rc

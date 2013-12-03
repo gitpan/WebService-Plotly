@@ -56,7 +56,6 @@
             "File::Temp" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
-            "PDL" : "0",
             "Storable" : "0",
             "Test::Fatal" : "0",
             "Test::InDistDir" : "0",
@@ -69,22 +68,22 @@
    "provides" : {
       "WebService::Plotly" : {
          "file" : "lib/WebService/Plotly.pm",
-         "version" : "1.133331"
+         "version" : "1.133370"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "mailto" : "bug-webservice-plotly at rt.cpan.org",
-         "web" : "https://github.com/cparmer/plotlyperl/issues"
+         "web" : "https://github.com/plotly/Perl-API/issues"
       },
-      "homepage" : "https://github.com/cparmer/plotlyperl",
+      "homepage" : "https://github.com/plotly/Perl-API",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/cparmer/plotlyperl.git",
-         "web" : "https://github.com/cparmer/plotlyperl"
+         "url" : "https://github.com/plotly/Perl-API.git",
+         "web" : "https://github.com/plotly/Perl-API"
       }
    },
-   "version" : "1.133331"
+   "version" : "1.133370"
 }
 

@@ -32,7 +32,6 @@ my %WriteMakefileArgs = (
     "File::Temp" => 0,
     "IO::Handle" => 0,
     "IPC::Open3" => 0,
-    "PDL" => 0,
     "Storable" => 0,
     "Test::Fatal" => 0,
     "Test::InDistDir" => 0,
@@ -40,7 +39,7 @@ my %WriteMakefileArgs = (
     "URI" => 0,
     "strict" => 0
   },
-  "VERSION" => "1.133331",
+  "VERSION" => "1.133370",
   "test" => {
     "TESTS" => "t/*.t"
   }

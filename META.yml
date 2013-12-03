@@ -9,7 +9,6 @@ build_requires:
   File::Temp: 0
   IO::Handle: 0
   IPC::Open3: 0
-  PDL: 0
   Storable: 0
   Test::Fatal: 0
   Test::InDistDir: 0
@@ -36,7 +35,7 @@ no_index:
 provides:
   WebService::Plotly:
     file: lib/WebService/Plotly.pm
-    version: 1.133331
+    version: 1.133370
 requires:
   JSON: 0
   LWP::UserAgent: 0
@@ -45,7 +44,7 @@ requires:
   strictures: 0
   warnings: 0
 resources:
-  bugtracker: https://github.com/cparmer/plotlyperl/issues
-  homepage: https://github.com/cparmer/plotlyperl
-  repository: https://github.com/cparmer/plotlyperl.git
-version: 1.133331
+  bugtracker: https://github.com/plotly/Perl-API/issues
+  homepage: https://github.com/plotly/Perl-API
+  repository: https://github.com/plotly/Perl-API.git
+version: 1.133370

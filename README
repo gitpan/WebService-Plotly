@@ -2,7 +2,7 @@ NAME
     WebService::Plotly - access plot.ly programmatically
 
 VERSION
-    version 1.133331
+    version 1.133370
 
 SYNOPSIS
         use WebService::Plotly;
@@ -130,16 +130,16 @@ THANKS
 SUPPORT
   Bugs / Feature Requests
     Please report any bugs or feature requests through the issue tracker at
-    <https://github.com/cparmer/plotlyperl/issues>. You will be notified
+    <https://github.com/plotly/Perl-API/issues>. You will be notified
     automatically of any progress on your issue.
 
   Source Code
     This is open source software. The code repository is available for
     public review and contribution under the terms of the license.
 
-    <https://github.com/cparmer/plotlyperl>
+    <https://github.com/plotly/Perl-API>
 
-      git clone https://github.com/cparmer/plotlyperl.git
+      git clone https://github.com/plotly/Perl-API.git
 
 AUTHORS
     *   Christian Walde <walde.christian@gmail.com>
