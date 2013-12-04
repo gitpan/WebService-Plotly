@@ -37,9 +37,10 @@ my %WriteMakefileArgs = (
     "Test::InDistDir" => 0,
     "Test::More" => 0,
     "URI" => 0,
-    "strict" => 0
+    "strict" => 0,
+    "version" => 0
   },
-  "VERSION" => "1.133370",
+  "VERSION" => "1.133380",
   "test" => {
     "TESTS" => "t/*.t"
   }
