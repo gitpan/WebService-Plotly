@@ -2,7 +2,7 @@ use strictures;
 
 package WebService::Plotly;
 
-our $VERSION = '1.133380'; # VERSION
+our $VERSION = '1.133400'; # VERSION
 
 # ABSTRACT: access plot.ly programmatically
 
@@ -19,6 +19,7 @@ our $VERSION = '1.133380'; # VERSION
 
 use JSON qw( decode_json encode_json );
 use LWP::UserAgent;
+use version 0.77;
 
 use Moo;
 
@@ -114,7 +115,7 @@ WebService::Plotly - access plot.ly programmatically
 
 =head1 VERSION
 
-version 1.133380
+version 1.133400
 
 =head1 SYNOPSIS
 

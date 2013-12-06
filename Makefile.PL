@@ -24,6 +24,7 @@ my %WriteMakefileArgs = (
     "LWP::UserAgent" => 0,
     "Moo" => 0,
     "strictures" => 0,
+    "version" => "0.77",
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
@@ -37,10 +38,9 @@ my %WriteMakefileArgs = (
     "Test::InDistDir" => 0,
     "Test::More" => 0,
     "URI" => 0,
-    "strict" => 0,
-    "version" => 0
+    "strict" => 0
   },
-  "VERSION" => "1.133380",
+  "VERSION" => "1.133400",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -15,7 +15,6 @@ build_requires:
   Test::More: 0
   URI: 0
   strict: 0
-  version: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -36,16 +35,17 @@ no_index:
 provides:
   WebService::Plotly:
     file: lib/WebService/Plotly.pm
-    version: 1.133380
+    version: 1.133400
 requires:
   JSON: 0
   LWP::UserAgent: 0
   Moo: 0
   perl: 5.006
   strictures: 0
+  version: 0.77
   warnings: 0
 resources:
   bugtracker: https://github.com/plotly/Perl-API/issues
   homepage: https://github.com/plotly/Perl-API
   repository: https://github.com/plotly/Perl-API.git
-version: 1.133380
+version: 1.133400
